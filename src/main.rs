@@ -2,6 +2,7 @@ mod random_vector;
 mod insertion_sort;
 
 
+
 fn main() {
     let mut vector:Vec<u8> = random_vector::generate(10);
 
