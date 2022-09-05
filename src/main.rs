@@ -1,6 +1,6 @@
 mod random_vector;
 mod insertion_sort;
-
+mod selection_sort;
 
 
 fn main() {
@@ -10,7 +10,7 @@ fn main() {
 
     println!("orderly:");
 
-    insertion_sort::sort(&mut vector);
+    selection_sort::sort(&mut vector);
 
     show_elements(&vector);
 }
